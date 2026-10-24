@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "violetvisual",
+  "version": "${version}",
+  "name": "Violet Visual",
+  "description": "Визуальный клиент: скины тотемов, растяг, FPS-буст, зум, фулбрайт, HUD. Тёмно-фиолетовая тема.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["ru.violet.visual.VioletVisual"] },
+  "mixins": [{ "config": "violetvisual.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

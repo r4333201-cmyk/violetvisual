@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "ru.violet.visual.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GameRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
